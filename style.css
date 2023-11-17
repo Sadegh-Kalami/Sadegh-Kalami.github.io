@@ -3,20 +3,22 @@ body {
       margin: 0;
       padding: 0;
       background-color: #f0f0f0;
-  }
-  
-  header {
-      background-color: #333;
+}
+
+header {
+      background-image: url('slam_image.png');
+      /* Replace with the path or URL of your background image */
+      background-size: cover;
       color: white;
       text-align: center;
-      padding: 1em 0;
-  }
-  
-  section {
+      padding: 3em 0;
+}
+
+section {
       padding: 2em;
-  }
-  
-  footer {
+}
+
+footer {
       background-color: #333;
       color: white;
       text-align: center;
@@ -24,5 +26,4 @@ body {
       position: fixed;
       bottom: 0;
       width: 100%;
-  }
-  
+}
