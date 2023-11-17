@@ -16,6 +16,8 @@ header {
 
 section {
       padding: 2em;
+      margin-bottom: 70px;
+      /* Adjust the margin as needed */
 }
 
 footer {
