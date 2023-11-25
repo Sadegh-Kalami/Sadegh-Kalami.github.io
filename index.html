@@ -94,6 +94,27 @@
                                                 </td>
                                           </tr>
                                           <tr>
+                                                <td class="news-date"><a href="#Visual-Inertial Odometry">8/2023:</a>
+                                                </td>
+                                                <td class="news-text">
+                                                      Achieved a milestone by
+                                                      implementing ORBSLAM3, the top-performing Visual Inertial
+                                                      Navigation System, on Jetson Nano and Jetson Orin platforms.
+                                                      Rigorous testing with diverse datasets showcases its unmatched
+                                                      accuracy and robustness in real-world scenarios, promising
+                                                      advancements in navigation technology.
+                                                </td>
+                                                </td>
+                                          </tr>
+                                          <tr>
+                                                <td class="news-date"><a href="#IMU-Fusion">7/2023:</a>
+                                                </td>
+                                                <td class="news-text">
+                                                      --Mohammad Reza Shafie--
+                                                </td>
+                                                </td>
+                                          </tr>
+                                          <tr>
                                                 <td class="news-date">11/2022:</td>
                                                 <td class="news-text">
                                                       I spent 9 months with a team developing a <a href="#3D">3D
@@ -135,7 +156,7 @@
                   </div>
             </section>
             <section class="mb-5">
-                  <h3 class="pb-2">My Project</h3>
+                  <h3 class="pb-2">My Projects</h3>
                   <div class="row align-items-center pb-4" id="ORBSLAM-Wilnav">
                         <div class="col-sm-3 pub-image-cell">
                               <a onclick="openWindows();">
@@ -186,20 +207,105 @@
                                     <a target="_blank" href="https://github.com/TIERS/wildnav">Code</a>
                               </p>
                               <p class="pub-text-title pub-text-p">Demo:</p>
-                              <!-- <video width="640" height="360" controls> -->
-                              <!-- <video autoplay controls loop width="640" height="360">
-            <source src="https://drive.google.com/uc?id=1Xo_uGhRv8YVua49dyoqMzTjhMWN20ciE" type="video/mp4">
-            Your browser does not support the video tag(mp4).
-          </video> -->
-                              <!-- <video width="640" height="360" controls>
-            <source src="assets/dezful_wildnav_orb.mp4" type="video/mp4">
-            Your browser does not support the video tag(mp4).
-          </video> -->
                               <iframe src="https://drive.google.com/file/d/1Xo_uGhRv8YVua49dyoqMzTjhMWN20ciE/preview"
                                     width="514" height="289"></iframe>
 
                         </div>
                   </div>
+                  <div class="row align-items-center pb-4" id="Visual-Inertial Odometry">
+                        <div class="col-sm-3 pub-image-cell">
+                              <a target="_blank" href="https://github.com/UZ-SLAMLab/ORB_SLAM3">
+                                    <img class="img-fluid pub-image" alt="Visual-Inertial Odometry" src="assets/VIO.png"
+                                          style="padding-left:0%;padding-right:0%"></a>
+                        </div>
+                        <div class="col-sm-9 py-3">
+                              <p class="pub-text-title pub-text-p">Visual-Inertial Odometry:
+                              </p>
+                              <p class="pub-text-authors pub-text-p">
+                              <p>
+                                    After extensively researching various Visual Inertial Navigation Systems (VINS) like
+                                    <a target="_blank"
+                                          href="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion">Visn-Fusion</a>,
+                                    <a target="_blank" href="https://github.com/MIT-SPARK/Kimera-VIO">Kimera</a>, <a
+                                          target="_blank" href="https://github.com/UZ-SLAMLab/ORB_SLAM3">ORBSLAM3</a>,
+                                    <a target="_blank" href="https://github.com/luigifreda/pyslam"> Pyslam</a>, among
+                                    others, I carefully evaluated their
+                                    capabilities and ultimately selected ORBSLAM3 for its impressive combination of
+                                    robustness and accuracy.
+                              </p>
+                              <p>
+                                    To implement ORBSLAM3, I successfully deployed it on both <a target="_blank"
+                                          href="https://developer.nvidia.com/embedded/jetson-nano-developer-kit"> Jetson
+                                          Nano</a> and <a target="_blank"
+                                          href="https://developer.nvidia.com/embedded/learn/get-started-jetson-orin-nano-devkit">
+                                          Jetson
+                                          Orin</a> platforms. This involved adapting the system to run efficiently on
+                                    these
+                                    hardware configurations, ensuring optimal performance.
+                              </p>
+                              <p>
+                                    For rigorous testing and evaluation, I utilized diverse datasets representing both
+                                    aerial and ground scenarios. These datasets included <a target="_blank"
+                                          href="https://etsin.fairdata.fi/dataset/50c898c9-a8f9-4935-80f0-08fc661e88b3">
+                                          FGI Masala
+                                          Stereo-Visual-Inertial Dataset 2021</a>, <a target="_blank"
+                                          href="https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets">
+                                          EuRoC dataset</a>, data collected using a
+                                    <a target="_blank" href="https://www.dji.com/uk/phantom-4-pro-v2"> Our Phantom 4
+                                          Pro</a>, and a custom dataset generated with our in-house data collection
+                                    system.
+                              </p>
+                              <p>
+                                    To showcase the effectiveness of my implementation, I've prepared a demonstration
+                                    that provides a clear example of the successful application of ORBSLAM3 in various
+                                    real-world scenarios. This demonstration serves as a testament to the system's
+                                    performance and its adaptability across different datasets and platforms.
+                              </p>
+
+                              <p class="pub-text-p">IEEE Transactions on Robotics 2021</p>
+                              <p class="pub-text-title pub-text-p">ORB-SLAM3:
+                                    <a target="_blank" href="https://arxiv.org/pdf/2007.11898">Paper</a> |
+                                    <a target="_blank" href="https://github.com/UZ-SLAMLab/ORB_SLAM3">Code</a>
+                              </p>
+                              <p class="pub-text-title pub-text-p">Demo:</p>
+                              <iframe src="https://drive.google.com/file/d/1erRMeTwoSLrp12E5rYCeV4gH0zn8NR_5/preview"
+                                    width="514" height="289"></iframe>
+                        </div>
+                  </div>
+
+
+
+
+                  <div class="row align-items-center pb-4" id="IMU-Fusion">
+                        <div class="col-sm-3 pub-image-cell">
+                              <a target="_blank" href="-----GITHUB-----">
+                                    <img class="img-fluid pub-image" alt="Visual-Inertial Odometry" src="----IMG-----"
+                                          style="padding-left:0%;padding-right:0%"></a>
+                        </div>
+                        <div class="col-sm-9 py-3">
+                              <p class="pub-text-title pub-text-p">IMU-Fusion:
+                              </p>
+                              <p class="pub-text-authors pub-text-p">
+                             
+                              <p>
+                                    ---Mohhamd Reza Shafie--
+                              </p>
+
+                              <p class="pub-text-p">IEEE Transactions on Robotics 2021</p>
+                              <p class="pub-text-title pub-text-p">ORB-SLAM3:
+                                    <a target="_blank" href="https://arxiv.org/pdf/2007.11898">Paper</a> |
+                                    <a target="_blank" href="https://github.com/UZ-SLAMLab/ORB_SLAM3">Code</a>
+                              </p>
+                              <p class="pub-text-title pub-text-p">Demo:</p>
+                              <iframe src="https://drive.google.com/file/d/1erRMeTwoSLrp12E5rYCeV4gH0zn8NR_5/preview"
+                                    width="514" height="289"></iframe>
+                        </div>
+                  </div>
+
+
+
+
+
                   <div class="row align-items-center pb-4" id="3D">
                         <div class="col-sm-3 pub-image-cell">
                               <a target="_blank">
@@ -232,7 +338,8 @@
                                     pivotal role in generating 3D models for animations and seamlessly integrates into
                                     <a target="_blank" href="https://www.unrealengine.com/en-US/unreal-engine-5">Unreal
                                           Engine 5</a> and
-                                    similar workflows.</p>
+                                    similar workflows.
+                              </p>
                               <p>
                                     Our project has garnered recognition and has been nominated for the Distinguished
                                     Service award, showcasing
