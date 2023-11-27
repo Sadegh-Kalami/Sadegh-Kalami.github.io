@@ -73,7 +73,7 @@ td.news-text {
 }
 
 .pub-image-cell {
-    max-width: 600px;
+    max-width: 500px;
 }
 
 .pub-image {
@@ -198,6 +198,10 @@ footer > a {
     background-color: #222;
     color: #fff;
 }
+.iframe-with-margin {
+    margin-left: 0%; /* Adjust the value as needed */
+}
+
 
 /* The video showcases a breathtaking summer adventure, filled with vibrant colors, laughter, and joyful moments. From sandy beaches to refreshing waterfalls, it captures the essence of the season. With friends and family enjoying outdoor activities like surfing, hiking, and picnics, the video encapsulates the carefree and sun-kissed spirit of summer. */
 
