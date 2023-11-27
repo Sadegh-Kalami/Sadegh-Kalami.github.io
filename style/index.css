@@ -1,10 +1,11 @@
 body {
     color: #333333;
     font-weight: 340;
-    text-align:justify ;
+    text-align: justify;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
     color: #359fb5 !important;
     text-decoration: underline;
 }
@@ -28,9 +29,9 @@ a {
 
 .me-image {
     border-radius: 50%;
-    padding:3px;
-    border:1px solid #C5CDCE;
-    background-color:white;
+    padding: 3px;
+    border: 1px solid #C5CDCE;
+    background-color: white;
 }
 
 .me-subtitle {
@@ -131,7 +132,7 @@ footer {
     font-size: 0.7rem;
 }
 
-footer > a {
+footer>a {
     color: #99afba !important;
 }
 
@@ -141,20 +142,20 @@ footer > a {
     display: none;
 }
 
-.limit-items #show-all:checked ~ .items tr {
+.limit-items #show-all:checked~.items tr {
     display: table-row;
 }
 
-.limit-items #show-all ~ label[for="show-all"] {
+.limit-items #show-all~label[for="show-all"] {
     display: none;
 }
 
-.limit-items #show-all:checked ~ .text-hide {
+.limit-items #show-all:checked~.text-hide {
     display: inline-block;
     padding: .5%;
 }
 
-.limit-items #show-all:not(:checked) ~ .text-show {
+.limit-items #show-all:not(:checked)~.text-show {
     display: inline-block;
     padding: .5%;
 }
@@ -189,7 +190,7 @@ footer > a {
 }
 
 .limit-items label[for="show-all"]:hover {
-    border:solid;
+    border: solid;
     border-width: 1px;
 }
 
@@ -198,10 +199,26 @@ footer > a {
     background-color: #222;
     color: #fff;
 }
+
 .iframe-with-margin {
-    margin-left: 0%; /* Adjust the value as needed */
+    margin-left: 0%;
+    /* Adjust the value as needed */
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 40%;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
 }
 
 
 /* The video showcases a breathtaking summer adventure, filled with vibrant colors, laughter, and joyful moments. From sandy beaches to refreshing waterfalls, it captures the essence of the season. With friends and family enjoying outdoor activities like surfing, hiking, and picnics, the video encapsulates the carefree and sun-kissed spirit of summer. */
-
