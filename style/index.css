@@ -1,6 +1,7 @@
 body {
     color: #333333;
     font-weight: 340;
+    text-align:justify ;
 }
 
 a:active, a:hover {
@@ -72,7 +73,7 @@ td.news-text {
 }
 
 .pub-image-cell {
-    max-width: 500px;
+    max-width: 600px;
 }
 
 .pub-image {
